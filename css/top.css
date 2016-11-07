@@ -1,0 +1,848 @@
+/*--------------------------------------------------*/
+.clearfix{clear: both;}.clearfix:after {content: ".";display: block;clear: both;height: 0;visibility: hidden;}.clearfix { display: inline-block; }
+/* exlude MacIE5 \*/* html .clearfix { height: 1% }.clearfix {display:block;}/* end MacIE5 *//*--------------------------------------------------*/
+
+.indent{
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block;
+}
+
+body {
+	line-height:1.2;
+	font-family:Meiryo, メイリオ, 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+	font-size:14px;
+	width: 100%;
+	/*background: url(http://ic4-a.dena.ne.jp/mi/w/1280/h/1280/q/90/bcimg1-a.dena.ne.jp/plus/u3188072/pc/sp_img/back_lp_03.png);
+	background-repeat : repeat;
+	background-size  : 100% auto;
+	position : fixed;
+	top  : 0;
+	left : 0;
+	right : 0;
+	bottom : 0;*/
+}
+
+/*=============================*/
+/*
+/*トップページ index_set02
+/*
+/*=============================*/
+h1{
+	padding: 1%;
+	background-color: #C7B299;
+	color: #fff;
+}
+
+header{
+	border-top: 2px solid #F7C9DD;
+	margin-top: 28px;
+}
+
+.logo{
+	width: 59.37%;
+	height: auto;
+	margin: 13px 10px 0;
+	float: left;
+	display: block;
+}
+
+.logo a{
+	background: url(../images/common/logo.jpg) no-repeat 0 0; background-size: 100%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 14%;
+	display: block;
+}
+	
+/*ヘッダーロゴ
+-----------------------------*/
+header.sp nav.global_nav {
+position: fixed;
+bottom: 0;
+right: 0;
+z-index:100;
+}
+
+h1{
+	text-align: center;
+}
+
+.top-menu{
+	margin: 15px 5px 0 0;
+	float: right;
+}
+
+.top-menu ul li{
+	float: left;
+	margin-left: 0px;
+}
+
+.top-menu ul li:nth-child(1){
+	margin-top: 5px;
+}
+
+.top-menu ul li:nth-child(2){
+	margin:4px 10px;
+}
+
+.top-menu ul li a.cart{
+	background: url(../images/common/btn_cart.png) no-repeat 0 0;
+	background-size: 30px 33px;
+	width: 30px;
+	height: 33px;
+	display: block;
+	overflow: hidden;
+}
+
+.top-menu ul li a.search{
+	background: url(../images/common/btn_serch.png) no-repeat 0 0;
+	background-size: 30px 33px;
+	width: 30px;
+	height: 33px;
+	display: block;
+	overflow: hidden;
+}
+
+.top-menu ul li a.menu{
+	background: url(../images/common/btn_menu.png) no-repeat 0 0;
+	background-size: 40px 41px;
+	width: 40px;
+	height: 41px;
+	display: block;
+	overflow: hidden;
+}
+
+/*ヘッダー
+グローバルナビ*/
+/*--------------------------------------*/
+#gnav{
+	clear:both;
+	padding:0;
+	z-index	: 100;
+	background: url(../images/common/nav_bg.jpg) repeat-x center 0; background-size:contain;
+	margin-top: -10px;
+	max-width: 100%;
+}
+
+#gnav ul{
+	width: 100%;
+	vertical-align:middle;
+	font-size:11px;
+	font-weight: normal;
+}
+
+#gnav li{
+	width: 24%;
+	height: auto;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+#gnav li:nth-child(4){
+	border-right: none;
+}
+	 
+#gnav ul li a{
+    width: 100%;
+    padding: 30px 0 3px 0;
+    margin: 0;
+    height: auto;
+}
+
+#gnav ul li a.g1 { background: url(../images/common/menu01.jpg) no-repeat center 0; background-size:contain;}
+#gnav ul li a.g2 { background: url(../images/common/menu02.jpg) no-repeat center 0; background-size:contain;}
+#gnav ul li a.g3 { background: url(../images/common/menu03.jpg) no-repeat center 0; background-size:contain;}
+#gnav ul li a.g4 { background: url(../images/common/menu04.jpg) no-repeat center 0; background-size:contain;}
+
+.top-shadow{
+	background: url(../images/common/shadow.jpg) no-repeat center 0; background-size:contain;
+	width: 100%;
+	height: 20px;
+}
+.fixed {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	}
+
+.infoBox{
+	min-width: 100%;
+	height: auto;
+}
+
+.info{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+.info p{
+	font-size: 1.2em;
+	text-align: 15px;
+}
+
+.info a{
+	color: #108BF3;
+}
+
+.mailMagazineBox{
+	max-width: 100%;
+	height: auto;
+}
+
+/*カテゴリー*/
+/*--------------------------------------*/
+
+.catItem{
+	background-color: #C7B299;
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	margin-top: 20px;
+}
+
+.catItem h2{
+	margin-left: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.cosmeCat{
+	background-color: #F7F4F0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.cosmeCat ul{
+	width: 94.75%;
+	margin: 15px auto;
+}
+
+.cosmeCat ul li{
+	float: left;
+	width: 24%;
+	height: auto;
+	margin-right: 3px;
+}
+
+.cosmeCat ul li a{
+	display: block;
+	padding-bottom: 68%;
+}
+
+.cosmeCat ul li:nth-child(1) a{
+	background: url(../images/top/btn_cat01.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(2) a{
+	background: url(../images/top/btn_cat02.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(3) a{
+	background: url(../images/top/btn_cat03.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(4) a{
+	background: url(../images/top/btn_cat04.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(5) a{
+	background: url(../images/top/btn_cat05.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(6) a{
+	background: url(../images/top/btn_cat06.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(7) a{
+	background: url(../images/top/btn_cat07.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(8) a{
+	background: url(../images/top/btn_cat08.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(9) a{
+	background: url(../images/top/btn_cat09.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(10) a{
+	background: url(../images/top/btn_cat10.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(11) a{
+	background: url(../images/top/btn_cat11.png) no-repeat center 0; background-size:100%;
+}
+
+.cosmeCat ul li:nth-child(12) a{
+	background: url(../images/top/btn_cat12.png) no-repeat center 0; background-size:100%;
+}
+
+/*ブランドリスト*/
+/*--------------------------------------*/
+
+.brand h2{
+	background: url(../images/top/ttl_brand.png) no-repeat center 0; background-size:100%;
+	width: 93.59%;
+	height: auto;
+	padding-bottom: 10%;
+	margin: 0 auto;
+}
+
+.listInner{
+	background: url(../images/top/bg_brand.png) no-repeat center 0; background-size:100%;
+	width: 98%;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.listInner ul{
+	overflow: hidden;
+	width: 92.10%;
+	margin: 0 auto;
+}
+
+.listInner ul li{
+	float: left;
+	width: 31%;
+	height: auto;
+	margin-left: 6px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block;
+}
+
+.listInner ul li a{
+	display: block;
+	padding-bottom: 46.36%;
+}
+
+.listInner ul li:nth-child(1) a{
+	background: url(../images/top/b01.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(2) a{
+	background: url(../images/top/b02.png) no-repeat center 0; background-size:100%;
+}
+.listInner ul li:nth-child(3) a{
+	background: url(../images/top/b03.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(4) a{
+	background: url(../images/top/b04.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(5) a{
+	background: url(../images/top/b05.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(6) a{
+	background: url(../images/top/b06.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(7) a{
+	background: url(../images/top/b07.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(8) a{
+	background: url(../images/top/b08.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(9) a{
+	background: url(../images/top/b09.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(10) a{
+	background: url(../images/top/b10.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(11) a{
+	background: url(../images/top/b11.png) no-repeat center 0; background-size:100%;
+}
+
+.listInner ul li:nth-child(12) a{
+	background: url(../images/top/b12.png) no-repeat center 0; background-size:100%;
+}
+
+.btnBrand{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.btnBrand a{
+	display: block;
+	background: url(../images/top/btn_brand.png) no-repeat center 0; background-size:100%;
+	padding-bottom: 13.03%;
+}
+
+/*新商品の紹介*/
+/*--------------------------------------*/
+.swiper-slide a{
+	color: #000;
+}
+
+.newItems h2{
+	background: url(../images/top/ttl_new.jpg) no-repeat center 0; background-size:100%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 9.37%;
+}
+
+.newBox{
+	width: 93.90%;
+	margin: 0 auto 30px;
+	overflow: hidden;
+}
+
+.newLeft{
+	float: left;
+	width: 47.96%;
+	margin-right: 3%;
+}
+
+.newLeft img{
+	border: 1px solid #ccc;
+}
+
+.newRight h3{
+	color: #F15A24;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	text-decoration-color: #F15A24;
+}
+
+.newRight p{
+	font-size: 0.9em;
+	line-height: 1.5;
+}
+
+.newRight p.price{
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.newRight p.price span{
+	font-size: 1.5em;
+	color: #F15A24;
+}
+
+/*タブメニュー*/
+/*--------------------------------------*/
+h3.ttlSell{
+	background: url(../images/top/ttl_sell.jpg) no-repeat center 0; background-size:100%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 7.81%;
+	margin: 10% 0 2%;
+}
+
+.tub{
+	max-width: 100%;
+}
+
+#tabMenu ul{
+    max-width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+#tabMenu li{
+width:46%;
+    float:left;
+    margin-left: 2%;
+    }
+#tabMenu li a{
+    display:block;
+    height:48px;
+    line-height:50px;
+    text-align:center;
+    }
+#tabMenu li:nth-child(1) a{
+	border: 1px solid #29ABE2;
+	border-bottom: none;
+	color: #29ABE2;
+}
+
+#tabMenu li:nth-child(2) a{
+	border: 1px solid #FF7BAC;
+	border-bottom: none;
+	color: #FF7BAC;
+}
+
+#tabBox1,#tabBox2,#tabBox3{
+    width:100%;
+    height:auto;
+    }
+#tabBox1{
+	border-top: 2px solid #29ABE2;
+    }
+#tabBox2{
+	border-top: 2px solid #FF7BAC;
+    display:none;
+    }
+
+.boxInner {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.boxInner dl{
+	float: left;
+	width: 45.93%;
+	margin-top: 20px;
+}
+
+.boxInner dl:nth-child(2n){
+	margin-left: 8%;
+}
+
+.boxInner dl:nth-child(3){
+	clear: both;
+	}
+
+.boxInner dl dt{
+	margin-bottom: 10%;
+}
+
+.boxInner dl dd{
+	line-height: 1.5;
+	font-size: 0.9em;
+}
+
+.itemTtl{
+	font-weight: bold;
+}
+
+/*ランキング*/
+/*--------------------------------------*/
+
+#cosmeRank{
+	width: 95%;
+	margin: 13% auto 0;
+}
+
+#cosmeRank h3, #contactRank h3{
+	background: url(../images/top/ttl_ranking.png) no-repeat 0 0; background-size:100%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 6.09%;
+}
+
+.ranking div.rankParts{
+	width: 28.74%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.ranking div.center{
+	margin-left:6.5%;
+	margin-right:6.5%;
+}
+
+.ranking div.rankParts a img{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#cosmeRank div.rankParts a img{
+	border: 1px solid #ccc;
+}
+
+.ranking div.rankParts p{
+	font-size: 0.8em;
+	line-height: 1.5;
+}
+
+.price{
+	font-weight: bold;
+}
+
+.ranking div.rankParts p.price span.priceBig{
+	font-size: 1.2em;
+}
+
+.btnAll{
+	width: 84.06%;
+	height: auto;
+	margin: 0 auto 20px auto;
+}
+
+.btnAll a{
+	background: url(../images/top/btn_all.png) no-repeat 0 0; background-size:100%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 13%;
+	display: block;
+}
+
+.red{
+	color: #F15A24;
+}
+
+/*オススメ商品*/
+/*--------------------------------------*/
+
+.osusume h3{
+	background: url(../images/top/ttl_osusume.png) no-repeat 0 0; background-size:100%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 16.40%;
+}
+
+.osusume a{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*クーポン等*/
+/*--------------------------------------*/
+
+.otoku{
+	width: 100%;
+	background-color: #F2F2F2;
+	text-align: center;
+	padding: 0% 0 5%;
+	margin-top: 5%;
+}
+
+.otoku a{
+	display: block;
+	margin-top: 5%;
+}
+
+.days{
+	text-align: center;
+	width: 100%;
+	color: #333;
+	padding: 3% 0;
+	background-color: #ccc;
+}
+
+.couponInner{
+	margin-top: 5%;
+}
+
+/*スペシャルコンテンツ
+-----------------------------*/
+#special{
+	width: 100%;
+	height: auto;
+	padding-bottom: 0;
+	margin-top: 5%;
+	margin-bottom: 10px;
+	background-color: #FAF7F4;
+}
+
+#special h2{
+	background: url(../images/common/ttl_special.png) no-repeat 0 0; background-size:100%;
+	width: 100%;
+	padding-bottom: 10.31%;
+}
+
+#special dl{
+	width: 93.75%;
+	margin: 0 auto;
+}
+
+#special dl dt{
+	margin-bottom: 5px;
+}
+
+#special dl dd{
+	margin-bottom: 15px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.red{
+	color: #F15A24;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+/*フッター
+-----------------------------*/
+.mailMagazine{
+	max-width: 100%;
+	height: auto;
+	padding-top: 25%;
+	margin: 0 auto;
+	background: url(../images/common/bana_magazine.png) no-repeat 0 0; background-size:100%;
+}
+
+.footMenu ul{
+	border-bottom: 1px solid #ccc;
+}
+
+.footMenu ul li{
+	border-top: 1px solid #ccc;
+}
+
+.footMenu ul li a{
+	width: 100%;
+	height: auto;
+	padding-top: 13.75%;
+	display: block;
+}
+
+.footMenu ul li:nth-child(1) a{
+	background: url(../images/common/foot_menu01.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.footMenu ul li:nth-child(2) a{
+	background: url(../images/common/foot_menu02.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.footMenu ul li:nth-child(3) a{
+	background: url(../images/common/foot_menu03.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.footMenu ul li:nth-child(4) a{
+	background: url(../images/common/foot_menu04.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.footMenu ul li:nth-child(5) a{
+	background: url(../images/common/foot_menu05.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.footMenu ul li:nth-child(6) a{
+	background: url(../images/common/foot_menu06.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.footMenu ul li:nth-child(7) a{
+	background: url(../images/common/foot_menu07.jpg) no-repeat 0 center; background-size:100%;
+}
+
+.sns{
+	background-color: #eee;
+	height: 50px;
+	width: 100%;
+}
+
+#footWrapper{
+	width: 100%;
+	background-color: #57391C;
+	height: auto;
+	overflow: hidden;
+}
+
+.footBox{
+	background: url(../images/common/bg_footer.png) no-repeat 0 0; background-size:100%;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+.footBox ul{
+	max-width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.footBox ul li{
+	float: left;
+}
+
+.footBox ul li:nth-child(2){
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.footBox ul li a{
+	color: #fff;
+}
+
+.footLogo{
+	width: 34.375%;
+	height: auto;
+	max-width: 100%;
+	padding-top: 10%;
+	margin: 0 auto;
+}
+
+.footLogo a{
+	background: url(../images/common/logo_footer.png) no-repeat 0 0; background-size:100%;
+	display: block;
+	height: auto;
+	max-width: 100%;
+	padding-bottom: 70%;
+}
+
+.copyright{
+	font-size: 0.7em;
+	color: #A67C52;
+	text-align: center;
+	padding-bottom: 5px;
+	margin-top: 3%;
+}
+
+.toTop{
+	border: 1px solid #F15A24;
+	max-width: 83.75%;
+	margin: 20px auto;
+}
+
+.toTop a{
+	max-width: 100%;
+	height: auto;
+	padding-top: 10%;
+	margin: 0 auto;
+	background: url(../images/common/btn_pageTop.png) no-repeat 0 center; background-size:100%;
+	display: block;
+}
+
+
+a.mb20{
+	margin-bottom: 30px;
+	display: block;
+}
+
+
+.coupon_header a{
+	width: 97.34%;
+	height:auto;
+	padding-top: 21.99%;
+	background: url(../images/common/btn_couponHeader.png) no-repeat 0 center; background-size:100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.pointup{
+	background: #ED1C24;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.pointup p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
